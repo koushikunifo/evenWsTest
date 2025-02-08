@@ -1,0 +1,32 @@
+{
+  "name": "distributed-websocket-testing",
+  "version": "0.0.1",
+  "description": "Testing framework for distributed websocket server",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evenopensource/distributed-websocket-testing.git"
+  },
+  "keywords": [
+    "distributed-websocket-server-testing",
+    "websocket-test",
+    "end-to-end-test-websocket",
+    "websocket-integration-test"
+  ],
+  "author": "SBPraveen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evenopensource/distributed-websocket-testing/issues"
+  },
+  "homepage": "https://github.com/evenopensource/distributed-websocket-testing#readme",
+  "devDependencies": {
+    "tsup": "^8.3.6",
+    "typescript": "^5.7.3"
+  }
+}
