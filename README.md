@@ -1,4 +1,4 @@
-# Distributed WebSocket Test Runner
+# edwet
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Node](https://img.shields.io/badge/node-%3E%3D16-brightgreen)
