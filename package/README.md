@@ -1,4 +1,4 @@
-# edwet
+# EvenWsTest
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Node](https://img.shields.io/badge/node-%3E%3D16-brightgreen)
@@ -30,50 +30,6 @@ yarn add distributed-websocket-test-runner --dev
 ## Usage
 
 ### Basic Example
-
-```typescript
-import { WebSocketTestRunner } from 'distributed-websocket-test-runner';
-
-const runner = new WebSocketTestRunner({
-  servers: [
-    'ws://localhost:8080',
-    'ws://localhost:9090'
-  ],
-  clients: 100, // Number of simulated clients
-  testCases: [
-    {
-      send: 'Hello, WebSocket!',
-      expect: 'Hello, Client!'
-    }
-  ]
-});
-
-runner.run().then(results => {
-  console.log('Test Results:', results);
-}).catch(err => {
-  console.error('Test Failed:', err);
-});
-```
-
-## Configuration
-
-You can customize the test runner using a configuration file:
-
-```json
-{
-  "servers": [
-    "ws://localhost:8080",
-    "ws://localhost:9090"
-  ],
-  "clients": 100,
-  "testCases": [
-    {
-      "send": "ping",
-      "expect": "pong"
-    }
-  ]
-}
-```
 
 ## CLI Usage
 
